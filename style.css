@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3eefa;
+    color: #2b2236;
+}
+
+header {
+    background-color: #5b2a86;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 4px solid #f2a65a;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 8px 0 0;
+}
+
+main {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd0ee;
+}
+
+h2 {
+    margin-top: 0;
+    color: #5b2a86;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #b9a3d3;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #7b3fb5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9b59d0;
+}
+
+button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+.loading {
+    color: #6b5a80;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+
+#notes-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#notes-list li {
+    padding: 12px;
+    margin-bottom: 10px;
+    background-color: #faf7fd;
+    border: 1px solid #ddd0ee;
+    border-left: 6px solid #7b3fb5;
+    border-radius: 8px;
+}
+
+#notes-list h3 {
+    margin: 0 0 6px;
+}
+
+.delete-btn {
+    background-color: #e0607e;
+    padding: 4px 12px;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #c9405f;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+}
